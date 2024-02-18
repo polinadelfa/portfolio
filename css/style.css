@@ -1,0 +1,187 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Revalia", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background: rgb(238, 239, 241);
+    padding-top: 56px;
+    min-height: 700px ;
+}
+
+.container {
+    max-width: 1106px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 162px;
+}
+
+.logo {
+    width: 96px;
+    height: 60px;
+}
+
+.header__logo {}
+
+.logo__img {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 42px;
+}
+
+.nav__item {}
+
+
+.nav__link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 10%;
+    color: 0.3s;
+    text-transform: uppercase;
+}
+
+.hero__content {
+    display: flex;
+}
+
+.hero__img-wrap {
+    width: 50%;
+    text-align: center;
+    width: 360px;
+}
+
+.hero__img {}
+
+.hero__desc {
+    max-width: 540px;
+
+}
+
+.hero__titel {}
+
+.titel {
+
+    font-weight: 500;
+    font-size: 48px;
+    color: black;
+}
+
+.sudtitel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    color: #727272;
+    text-align: center;
+}
+
+.hero__content {
+    display: flex;
+    padding-bottom: 146px;
+}
+
+.hero__sudtitel {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.btn__wrap {
+    margin-bottom: 146px;
+}
+
+.btn {
+    background: #34547a;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 164%;
+    letter-spacing: 0.1em;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 40px;
+    text-transform: uppercase;
+}
+
+.about {
+    padding-top: 119px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.container {
+}
+.about__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.section-titel {
+    font-weight: 500;
+font-size: 32px;
+color: #000;
+margin-bottom: 50px;
+}
+.sudtitel {
+}
+.achievements {
+}
+.achievements__list {
+}
+.achievements__item {
+}
+.achievements__icon {
+}
+.achievements__desc {
+}
+.achievements__count {
+}
+.achievements__text {
+}
